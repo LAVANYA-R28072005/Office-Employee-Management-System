@@ -2,10 +2,10 @@
 This is a web-based Office Employee Management System built using Python and Django framework. It allows administrators to manage employee records efficiently via a simple and user-friendly interface.
 
 🔧 Features:
-*Add, update, Filter and delete employee records
-*Interactive admin panel for easy management
-*Responsive frontend with support for custom background images
-*Powered by Django’s ORM and templating system
+* 1.Add, update, Filter and delete employee records
+* 2.Interactive admin panel for easy management
+* 3.Responsive frontend with support for custom background images
+* 4.Powered by Django’s ORM and templating system
 
 ## 🛠 Tech Stack
 - **Frontend**: HTML, CSS (Django Templates)
