@@ -1,0 +1,31 @@
+Requirements:
+1. install Django: pip install Django(using this command)
+2. PyCharm
+3. python
+
+How to Run the Project:
+1. clone the project from GitHub.
+2.create a virtual environment in your project folder using cmd or PyCharm terminal:
+command: python -m venv myenv(to create virtual env, create only once)
+activate env : myenv\Scripts\activate ( run this command every time while running the project) 
+3.install Django using command 'pip install django'
+4. change the project directory using this command: cd office_emp_proj
+5. change the background image path in html file according to your system location
+6. type this commands in cmd/ PyCharm terminal for creating models in your system:
+* python manage.py makemigrations
+* python manage.py migrate
+7. Run the project using this command: python manage.py runserver
+8. you will login to the webpage of office employee management system. If you need to go for Admin panel, go to the url bar type this:
+<port number>/admin (eg.http://127.0.0.1:8000/admin)
+* Username: Admin
+*Password: 12345678
+
+
+Note: This commands I used to create a project file, Emp_app, Superuser:
+1. to create a project: django-admin startproject <project name>  (eg. django-admin startproject office_emp_proj)
+2. to create a app: python manage.py startapp <app name> (eg. python manage.py emp_app)
+3. to create a superuser: python manage.py createsuperuser
+then enter your username, email-id, and password
+4. to run project: python manage.py
+5. ctrl+c this shortcut are used to exit the web-browser in the PyCharm terminal
+   
